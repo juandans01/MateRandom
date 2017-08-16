@@ -1,0 +1,97 @@
+button:focus {
+    outline: none
+}
+
+.random-container {
+    margin: 10px;
+}
+
+.random-content {
+    min-height: 300px;
+}
+
+.name-input input[type="text"]{
+    width: 90%;
+    height: 20px;
+    border: solid 5px #c9c9c9;
+    transition: border 0.3s;
+    padding: 10px;
+}
+
+.name-input input[type="text"]:focus {
+    outline: none;
+    border: solid 5px #969696;
+}
+
+.name-input .focus {
+    border: solid 5px #969696;
+}
+
+.result {
+    height: 75px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    font-size: 25px;
+    background-color: #6A1B9A;
+    color: white;
+    display: table;
+}
+
+.result-span {
+    vertical-align:middle;
+    display: table-cell;
+}
+
+.name-container {
+    display: flex;
+    width: 90%;
+    height: 30px;
+    margin: 15px;
+
+
+}
+
+.name-label {
+    display: table;
+    width: inherit;
+    height: inherit;
+}
+
+.name-span {
+    vertical-align:middle;
+    font-size: 16px;
+    display: table-cell;
+}
+
+.name-button {
+    width: 30px;
+    height: 30px;
+    border-style: none;
+    border-radius: 2px ;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    color: #007ac1;
+    float: left;
+}
+
+.name-button:active {
+    color: #003d60;
+}
+
+.random-button {
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+    font-weight: bold;
+    border: none ;
+    background: #007ac1;
+    transition: border 0.3s;
+    color: white;
+}
+
+.random-button:active {
+    background-color: #003d60;
+}
+
+

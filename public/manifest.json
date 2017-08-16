@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "MateRandom",
+  "description": "Who has to do the mate?",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "MateIconBlack.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://ajax.googleapis.com/"
+  ]
+}
